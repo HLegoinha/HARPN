@@ -4,9 +4,11 @@ Legoinha is a simple function that downloads .fits spectra from HARPSN database.
 The arguments od the function are to be given in the following order:
 
   Mandatory:
+  
 (1) Path to download folder
 (2) Browser
 (3) Star List
+
   Optionals:
 (4) File type
 (5) Fiber
