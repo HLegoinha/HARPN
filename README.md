@@ -2,10 +2,12 @@
 Legoinha is a simple function that downloads .fits spectra from HARPSN database. It creates a folder for each input star and saves inside all the availabe and free .fits spectra as well as a .txt containing the average signal to noise of all spectra donwloaded!
 
 The arguments od the function are to be given in the following order:
+
 Mandatory:
 (1) Path to download folder
 (2) Browser
 (3) Star List
+
 Optionals:
 (4) File type
 (5) Fiber
