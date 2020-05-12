@@ -21,14 +21,17 @@ This should simply be 'firefox' or 'chrome' depending on what webdriver is intal
 
 --3) Star List:
 A list containg the name of the star to be downloaded. If it is only one star it is required to be in brackts as well. 
+
 e.g: ['STAR']
 
 --4) File type:
 This should be a string like one of the selectable files in the HARPN form website.
+
 e.g.: 's1d'
 
 --5) Fiber:
 This should be a string refering to the 'A' or 'B' fibers.
+
 e.g: 'A'
 
 --6) Folder:
