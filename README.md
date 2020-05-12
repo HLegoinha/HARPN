@@ -13,7 +13,7 @@ After the download creat a folder named bin in the OS(C:), drop the downloaded d
 To do this in windows: right-click on the windows icon > system > about > system info > advanced system definition >  Envoirment variables > System variables: there should be a variable named PATH. If there is no variable with that name create a new one and put there the bin folder directory. If it already exists simply add the bin folder directory puting first a ';' in case there is already a directory inside. 
 
 
-The arguments of the function are to be given in the following order:
+The function is now ready to be used by giving the following arguments in the following order:
 
 Mandatory:
 (1) Path to download folder
