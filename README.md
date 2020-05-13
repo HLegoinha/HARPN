@@ -1,5 +1,5 @@
 # HARPN
-Legoinha is a simple function that downloads .fits spectra from HARPSN database. It creates a folder for each input star and saves inside all the availabe and free .fits spectra as well as a .txt containing the average signal to noise of all spectra donwloaded!
+HARPN is a simple function that downloads .fits spectra from HARPSN database. It creates a folder for each input star and saves inside all the availabe and free .fits spectra as well as a .txt containing the average signal to noise of all spectra donwloaded!
 
 
 In order to use it it's necessary to download chrome driver or firefox driver (named geckodriver):
