@@ -8,7 +8,7 @@ ChromeDriver: https://chromedriver.chromium.org/downloads
 
 geckodriver: https://github.com/mozilla/geckodriver/releases/tag/v0.26.0 (apears in the end of the page)
 
-After the download creat a folder named bin in the OS(C:), drop the downloaded driver.exe in there and add that folder tou yout PATH variables (in windows). 
+After the above download create a folder named bin in the OS(C:), drop the driver.exe in there and add that folder tou yout PATH variables (in windows). 
 
 To do this in windows: right-click on the windows icon > system > about > system info > advanced system definition >  Envoirment variables > System variables: there should be a variable named PATH. If there is no variable with that name create a new one and put there the bin folder directory. If it already exists simply add the bin folder directory puting first a ';' in case there is already a directory inside. 
 
