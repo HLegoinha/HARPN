@@ -49,24 +49,23 @@ This should be a string refering to the 'A' or 'B' fibers. e.g. 'A'
 
 
 6) folder:
-This should be a string that contains the path to a folder where the downloadable files will be saved. If not specified the downloadable files will be stored in the download folder. Again, pay attetnion to the '/' instead of backslash.
+This should be a string that contains the path to a folder where the downloadable files will be saved. If not specified the downloadable files will be stored in the download folder. Again, pay attention to the '/' instead of the backslash.
 
 7) download:
-This should be True or False. It is, however, True by default meaning that the function will always search and download files unless download is defined to be False. In this case, the fucntion will only perform a survey returning the name of the stars that are not recognized by the databais. Those who are recognized might or might not be in the databasis.
+This should be True or False. It is, however, True by default meaning that the function will always search and download files unless download is defined to be False. In this case, the function will only perform a survey returning the name of the stars that are not recognized by the database. Those who are recognized might not be in the database.
 
 
 >>> SET UP
 
-To do this in windows: 
-Create a folder named bin in the OS(C:), drop the driver.exe in there and add that folder tou yout PATH variables (in windows). Right-click on the windows icon > system > about > system info > advanced system definition >  Envoirment variables > System variables: there should be a variable named PATH. If there is no variable with that name create a new one and put there the bin folder directory. If it already exists simply add the bin folder directory puting first a ';' in case there is already a directory inside. 
+To do this in Windows: 
+Create a folder named bin in the OS(C:), drop the driver.exe in there and add that folder to your PATH variables (in Windows). Right-click on the Windows icon > system > about > system info > advanced system definition >  Enviroment variables > System variables: there should be a variable named PATH. If there is no variable with that name create a new one and put there the bin folder directory. If it already exists simply add the bin folder directory putting first ';' in case a directory already exists inside. 
 
-To do this in Linux:
+To do this on Linux:
 For chrome users:
-Inside /home/${user} – create a new directory “ChromeDriver”. Unzip the downloaded chromedriver into this folder.Using «chmod +x filename» make the file executable (file name is the name of the folder, ChromeDriver). Go to the folder using cd command («cd ChromeDriver») and execute the chrome driver with «./chromedriver» command.
+Inside '/home/${user}' create a new directory “ChromeDriver”. Unzip the downloaded chromedriver into this folder.Using «chmod +x filename» make the file executable (file name is the name of the folder, ChromeDriver). Go to the folder using cd command («cd ChromeDriver») and execute the chrome driver with «./chromedriver» command.
 
 For firefox users:
 Run the following lines in the terminal
-
 
 export GECKO_DRIVER_VERSION='v0.24.0'
 
