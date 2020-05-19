@@ -25,15 +25,15 @@ Optionals:
 
 
 1) path to download folder: 
-It must be a string with the path to the download folder. I point out that python reads '/' instead of ordinary windows '\', so don't forget to replace them if you copy the path directly from the folder directory.
-eg on linux: '/home/henrique/Downloads'
-eg on windows: 'C:/Users/Henrique Legoinha/Downloads'
+It must be a string with the path to the download folder. I point out that python reads '/' instead of ordinary windows back slash, so don't forget to replace them if you copy the path directly from the folder directory.
+e.g. on linux: '/home/henrique/Downloads', 
+e.g. on windows: 'C:/Users/Henrique Legoinha/Downloads'
 
 
 2) PATH_Driver:
-This should simply be path to the the 'geckodriver' or 'chromedriver' in your pc. eg on windows: 
-eg on linux: '/home/henrique/ChromeDriver/chromedriver' or '/usr/local/bin/geckodriver' 
-eg on windows: r'C:/bin/chromedriver' or 'C:/bin/geckodriver'
+This should simply be path to the the 'geckodriver' or 'chromedriver' in your pc. 
+e.g. on linux: '/home/henrique/ChromeDriver/chromedriver' or '/usr/local/bin/geckodriver',
+e.g. on windows: r'C:/bin/chromedriver' or 'C:/bin/geckodriver'
 
 
 3) star List:
@@ -45,7 +45,7 @@ This should be a string like one of the selectable files in the HARPN form websi
 
 
 5) fiber:
-This should be a string refering to the 'A' or 'B' fibers. e.g: 'A'
+This should be a string refering to the 'A' or 'B' fibers. e.g. 'A'
 
 
 6) folder:
