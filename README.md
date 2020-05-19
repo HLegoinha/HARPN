@@ -8,7 +8,7 @@ ChromeDriver: https://chromedriver.chromium.org/downloads
 
 geckodriver: https://github.com/mozilla/geckodriver/releases/tag/v0.26.0 (apears in the end of the page)
 
-After the download is finished, depending on your OS you can find detailed instructions for the procedures in order to correctly use the function.
+After the download is finished, depending on your OS, you can find detailed instructions for the procedures in order to correctly use the function in the end of this README .
 
 After following those procedures the function is ready to be used by giving the following arguments in the following order:
 
