@@ -49,7 +49,7 @@ This should be a string refering to the 'A' or 'B' fibers. e.g. 'A'
 
 
 6) folder:
-This should be a string that contains the path to a folder where the downloaded files will be saved. If not specified the downloaded files will be stored in the download folder. Again, pay attetion to the '/' instead of '\'.
+This should be a string that contains the path to a folder where the downloadable files will be saved. If not specified the downloaded files will be stored in the download folder. Again, pay attetion to the '/' instead of '\'.
 
 7) download:
 This should be True or False. It is, however, True by default meaning that the function will always search and download files unless download is defined to be False. In this case, the fucntion will only perform a survey returning the name of the stars that are not recognized by the databais. Those who are recognized might or might not be in the databasis.
