@@ -25,7 +25,7 @@ Optionals:
 
 
 1) path to download folder: 
-It must be a string with the path to the download folder. I point out that python reads '/' instead of ordinary windows back slash, so don't forget to replace them if you copy the path directly from the folder directory.
+It must be a string with the path to the download folder. I point out that python reads '/' instead of ordinary windows backslash, so don't forget to replace them if you copy the path directly from the folder directory.
 e.g. on linux: '/home/henrique/Downloads', 
 e.g. on windows: 'C:/Users/Henrique Legoinha/Downloads'
 
