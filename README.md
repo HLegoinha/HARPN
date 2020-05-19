@@ -37,11 +37,11 @@ e.g. on windows: r'C:/bin/chromedriver' or 'C:/bin/geckodriver'
 
 
 3) star List:
-A list containg the name of the star to be downloaded. If it is only one star it's required to be in brackets as well. e.g: ['STAR']
+A list containg the name of the star to be downloaded. If it is only one star it's required to be in brackets as well. e.g. ['STAR']
 
 
 4) file type:
-This should be a string like one of the selectable files in the HARPN form website. e.g.: 's1d'
+This should be a string like one of the selectable files in the HARPN form website. e.g. 's1d'
 
 
 5) fiber:
