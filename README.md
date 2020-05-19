@@ -31,7 +31,7 @@ e.g. on windows: 'C:/Users/Henrique Legoinha/Downloads'
 
 
 2) PATH_Driver:
-This should simply be path to the the 'geckodriver' or 'chromedriver' in your pc. 
+This should simply be a string containing the path to 'geckodriver' or 'chromedriver' in your pc. 
 e.g. on linux: '/home/henrique/ChromeDriver/chromedriver' or '/usr/local/bin/geckodriver',
 e.g. on windows: r'C:/bin/chromedriver' or 'C:/bin/geckodriver'
 
