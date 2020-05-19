@@ -1,6 +1,6 @@
 # HARPN
 HARPN is a simple function that downloads .fits spectra from HARPSN database. It creates a folder for each input star and saves inside all the availabe free .fits spectra as well as a .txt containing the average signal to noise of all spectra donwloaded!
-It returns a mensage showing the amount of downloaded files as soon as a star has been processed or warns the user if the star can't be found on the database. The mensage '0 files extracted' means that the star only has private spectra. 
+It returns a message showing the amount of downloaded files as soon as a star has been processed or warns the user if the star can't be found on the database. The mensage '0 files extracted' means that the star only has private spectra. 
 
 In order to use it it's necessary to download chrome driver or firefox driver (this one is named geckodriver) for your os:
 
