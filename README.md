@@ -37,7 +37,7 @@ e.g. on windows: r'C:/bin/chromedriver' or 'C:/bin/geckodriver'
 
 
 3) star List:
-A list containg the name of the star to be downloaded. If it is only one star it is required to be in brackts as well. e.g: ['STAR']
+A list containg the name of the star to be downloaded. If it is only one star it's required to be in brackets as well. e.g: ['STAR']
 
 
 4) file type:
