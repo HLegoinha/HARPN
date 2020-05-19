@@ -5,6 +5,7 @@ It returns a mensage showing the amount of downloaded files as soon as a star ha
 In order to use it it's necessary to download chrome driver or firefox driver (this one is named geckodriver) for your os:
 
 ChromeDriver: https://chromedriver.chromium.org/downloads
+
 geckodriver: https://github.com/mozilla/geckodriver/releases/tag/v0.26.0 (apears in the end of the page)
 
 After the above download is finihed, depending on your OS you can find detailed instructions for the procedures in order to correctly use the function.
