@@ -21,7 +21,7 @@ Optionals:
 (4) file type
 (5) fiber
 (6) folder
-(7) donwload
+(7) doWNload
 
 
 1) path to download folder: 
