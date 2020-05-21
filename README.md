@@ -13,21 +13,18 @@ After the download is finished, depending on your OS, you can find detailed inst
 After following those procedures the function is ready to be used by giving the following arguments in the following order:
 
 Mandatory:
-(1) path to download folder
+(1) folder
 (2) PATH_Driver
 (3) star List
 
 Optionals:
 (4) file type
 (5) fiber
-(6) folder
-(7) download
+(6) download
 
 
-1) path to download folder: 
-It must be a string with the path to the download folder. I point out that python reads '/' instead of ordinary windows backslash, so don't forget to replace them if you copy the path directly from the folder directory.
-e.g. on linux: '/home/henrique/Downloads', 
-e.g. on windows: 'C:/Users/Henrique Legoinha/Downloads'
+1) folder: 
+This should be a string that contains the path to a folder where the downloadable files will be saved. Pay attention to the '/' instead of the backslash. In the end of the path add another '/' like this e.g. on windows 'C:/Users/Henrique Legoinha/Desktop/stars/' and this e.g. on Linux '/home/henrique/Downloads'
 
 
 2) PATH_Driver:
@@ -48,17 +45,14 @@ This should be a string like one of the selectable files in the HARPN form websi
 This should be a string refering to the 'A' or 'B' fibers. e.g. 'A'
 
 
-6) folder:
-This should be a string that contains the path to a folder where the downloadable files will be saved. If not specified the downloadable files will be stored in the download folder. Again, pay attention to the '/' instead of the backslash. In the end of the path add another '/' like this e.g. 'C:/Users/Henrique Legoinha/Desktop/stars/'
-
-7) download:
-This should be True or False. It is, however, True by default meaning that the function will always search and download files unless download is defined to be False. In this case, the function will only perform a survey returning the name of the stars that are not recognized by the database. Those who are recognized might not be in the database.
+6) download: This should be True or False. It is, however, True by default meaning that the function will always search and download files unless download is defined to be False. In this case, the function will only perform a survey returning the name of the stars that are not recognized by the database. Those who are recognized might not be in the database.
 
 
 >>> SET UP
 
 To do this in Windows: 
 Create a folder named bin in the OS(C:), drop the driver.exe in there and add that folder to your PATH variables (in Windows). Right-click on the Windows icon > system > about > system info > advanced system definition >  Enviroment variables > System variables: there should be a variable named PATH. If there is no variable with that name create a new one and put there the bin folder directory. If it already exists simply add the bin folder directory putting first ';' in case a directory already exists inside. 
+
 
 To do this on Linux:
 For chrome users:
