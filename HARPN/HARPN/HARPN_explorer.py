@@ -15,8 +15,6 @@ from bs4 import BeautifulSoup
 from selenium.common.exceptions import NoSuchElementException
 
 
-
-
 def HARPN(folder, PATH_DRIVER, target, fiber=None, file_type=None, download=True):
        
     #Following if's open the respective browser in silence mode and go to the TNG form website
@@ -103,7 +101,6 @@ def HARPN(folder, PATH_DRIVER, target, fiber=None, file_type=None, download=True
                                             nome = str(href[-25:])   
                                             break
                                    
-                                
                                     #create a folder for upcoming downloads
                                     if os.path.exists(folder + str(i)):
                                         shutil.rmtree(folder + str(i))
