@@ -43,8 +43,8 @@ def HARPN(folder, PATH_DRIVER, target, fiber=None, file_type=None, download=True
 
         #fiber A or B
         browser.find_element_by_id('main:FIBER_2').send_keys(fiber)
-        #file_type
         
+       #file_type
         HTML = BeautifulSoup(browser.page_source, 'html5lib')
         for line in HTML.find_all('select'):
             if line.get('id') == 'main:FILE_TYPE_REDUCED':
@@ -57,8 +57,11 @@ def HARPN(folder, PATH_DRIVER, target, fiber=None, file_type=None, download=True
                     if palavraa == file_type:
                         n_times = contador-1
         for i in range(n_times):
-            browser.find_element_by_id('main:FILE_TYPE_REDUCED').send_keys(Keys.DOWN) 
+            browser.find_element_by_id('main:FILE_TYPE_REDUCED').send_keys(Keys.DOWN)
         
+        #ignore TBL files
+        browser.find_element_by_id('main:TBL_FILE').send_keys('oo')
+              
         counter=1 #in order to count the stars already processed
         for i in target: 
             #target object (using resolver and search btn)
