@@ -132,25 +132,26 @@ def HARPN(folder, PATH_DRIVER, target, fiber=None, file_type=None, download=True
                                     
                                     print(str(counter)+')  '+ i + ': ' + str(n_spectra)+'/'+ str(num_results) + ' spectra extracted')
                                     counter +=1
-                                    #SIGNAL_NOISE of downloaded spectra:
-                                    Dic = {}
-                                    Lista = np.zeros(69)
-                                    for e in os.listdir(folder_i):
-                                        ficheiro_e = fits.open( folder_i + '/' + str(e))
-                                        L=[]
-                                        for r in range(69):
-                                            valor = (ficheiro_e[0].header['HIERARCH TNG DRS SPE EXT SN' + str(r)])**2
-                                            L.append(valor)
-                                        Lista = Lista+L
-                                        ficheiro_e.close()
-                                    for r in range(69):
-                                        Dic.update({'SN' + str(r) : np.sqrt(Lista[r])})
+                                   
+#                                     #SIGNAL_NOISE of downloaded spectra:
+#                                     Dic = {}
+#                                     Lista = np.zeros(69)
+#                                     for e in os.listdir(folder_i):
+#                                         ficheiro_e = fits.open( folder_i + '/' + str(e))
+#                                         L=[]
+#                                         for r in range(69):
+#                                             valor = (ficheiro_e[0].header['HIERARCH TNG DRS SPE EXT SN' + str(r)])**2
+#                                             L.append(valor)
+#                                         Lista = Lista+L
+#                                         ficheiro_e.close()
+#                                     for r in range(69):
+#                                         Dic.update({'SN' + str(r) : np.sqrt(Lista[r])})
 
-                                    with open(folder_i + '/SIGNAL_NOISE.txt', 'w') as f:
-                                        f.write(i + ': ' + str(n_spectra)+'/'+ str(num_results) + ' free spectra extracted\n')
-                                        for key, value in Dic.items():
-                                            f.write('%s:%f\n' % (key, value))
-                                    f.close()
+#                                     with open(folder_i + '/SIGNAL_NOISE.txt', 'w') as f:
+#                                         f.write(i + ': ' + str(n_spectra)+'/'+ str(num_results) + ' free spectra extracted\n')
+#                                         for key, value in Dic.items():
+#                                             f.write('%s:%f\n' % (key, value))
+#                                     f.close()
 
                                     #remove created folder for cases with 0 free spectra
                                     if n_spectra == 0:
