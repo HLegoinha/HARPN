@@ -56,7 +56,7 @@ Create a folder named bin in the OS(C:), drop the driver.exe in there and add th
 
 To do this on Linux:
 For chrome users:
-Inside '/home/${user}' create a new directory “ChromeDriver”. Unzip the downloaded chromedriver into this folder.Using «chmod +x filename» make the file executable (file name is the name of the folder, ChromeDriver). Go to the folder using cd command («cd ChromeDriver») and execute the chrome driver with «./chromedriver» command.
+Inside '/home/${user}' create a new directory “ChromeDriver”. Unzip the downloaded chromedriver into this folder. Using «chmod +x filename» make the file executable (file name is the name of the folder, ChromeDriver). Go to the folder using cd command («cd ChromeDriver») and execute the chrome driver with «./chromedriver» command.
 
 For firefox users:
 Run the following lines in the terminal
